@@ -9,6 +9,7 @@ for (const button of buttonArray) {
       string = eval(string);
       input.value = string;
     } else if (event.target.innerHTML == "AC") {
+      string = "";
       input.value = "";
     } else if (event.target.innerHTML == "DEL") {
       string = string.substring(0, string.length - 1);
